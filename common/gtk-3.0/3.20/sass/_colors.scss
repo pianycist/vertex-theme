@@ -2,23 +2,23 @@
 // it gets @if ed depending on $variant
 
 
-$_base_color: (#ffffff, #2B2B2C);
+$_base_color: (#ffffff, #2C2B2B);
 $base_color: if($variant =='light', nth($_base_color, 1), nth($_base_color, 2));
 
-$_text_color: (#3c3c3e, #F3F3F5);
+$_text_color: (#3c3c3e, #F5F3F3);
 $text_color: if($variant == 'light', nth($_text_color, 1), nth($_text_color, 2));
 
-$_bg_color: (#F5F5F7, #353638);
+$_bg_color: (#F5F5F7, #383635);
 $bg_color: if($variant =='light', nth($_bg_color, 1), nth($_bg_color, 2));
 
-$_fg_color: (#3c3c3e, #F3F3F5);
+$_fg_color: (#3c3c3e, #F5F3F3);
 $fg_color: if($variant =='light', nth($_fg_color, 1), nth($_fg_color, 2));
 
 
 $_selected_fg_color: #ffffff;
 $selected_fg_color: $_selected_fg_color;
 
-$_selected_bg_color: #4080fb;
+$_selected_bg_color: #ef2929;
 $selected_bg_color: $_selected_bg_color;
 
 
@@ -57,10 +57,10 @@ $_destructive_color_b: #ce3535;
 $destructive_color_b: $_destructive_color_b;
 
 
-$_suggested_color_a: (#6496F5, #407cbc);
+$_suggested_color_a: (#ef2929, #BC7C40);
 $suggested_color_a: if($variant == 'light', nth($_suggested_color_a, 1), nth($_suggested_color_a, 2));
 
-$_suggested_color_b: (#5A86DB, #2a5285);
+$_suggested_color_b: (#DB865A, #85522A);
 $suggested_color_b: if($variant == 'light', nth($_suggested_color_b, 1), nth($_suggested_color_b, 2));
 
 
@@ -83,14 +83,14 @@ $button_gradient_color_b: if($variant == 'light', nth($_button_gradient_color_b,
 $_button_hover_gradient_color_a: (nth($_base_color, 1), lighten(nth($_bg_color, 2), 16.7%));
 $button_hover_gradient_color_a: if($variant == 'light', nth($_button_hover_gradient_color_a, 1), nth($_button_hover_gradient_color_a, 2));
 
-$_button_hover_gradient_color_b: (darken(nth($_button_gradient_color_a, 1), 6%), #393A3B);
+$_button_hover_gradient_color_b: (darken(nth($_button_gradient_color_a, 1), 6%), #3B3A39);
 $button_hover_gradient_color_b: if($variant == 'light', nth($_button_hover_gradient_color_b, 1), nth($_button_hover_gradient_color_b, 2));
 
 
-$_button_active_gradient_color_a: (#6a6a6c, #242525);
+$_button_active_gradient_color_a: (#6C6A6A, #252524);
 $button_active_gradient_color_a: if($variant == 'light', nth($_button_active_gradient_color_a, 1), nth($_button_active_gradient_color_a, 2));
 
-$_button_active_gradient_color_b: (#949596, #37383A);
+$_button_active_gradient_color_b: (#969594, #3A3837);
 $button_active_gradient_color_b: if($variant == 'light', nth($_button_active_gradient_color_b, 1), nth($_button_active_gradient_color_b, 2));
 
 
@@ -115,7 +115,7 @@ $osd_fg_color: $_osd_fg_color;
 $_osd_text_color: $_osd_fg_color;
 $osd_text_color: $_osd_text_color;
 
-$_osd_bg_color: transparentize(#343436, 0.3);
+$_osd_bg_color: transparentize(#363434, 0.3);
 $osd_bg_color: $_osd_bg_color;
 
 
