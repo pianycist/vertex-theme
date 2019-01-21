@@ -1,12 +1,12 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
-Name=Vertex-Light
+Name=Vertex-Light-Red
 Comment=A theme
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
-GtkTheme=Vertex-Light
-MetacityTheme=Vertex-Light
+GtkTheme=Vertex-Light-Red
+MetacityTheme=Vertex-Light-Red
 IconTheme=gnome
 CursorTheme=DMZ-Black
 ButtonLayout=menu:minimize,maximize,close
