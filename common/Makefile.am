@@ -1,6 +1,6 @@
-themedir       = $(datadir)/themes/Vertex
-themedarkdir   = $(datadir)/themes/Vertex-Dark
-themelightdir  = $(datadir)/themes/Vertex-Light
+themedir       = $(datadir)/themes/Vertex-Red
+themedarkdir   = $(datadir)/themes/Vertex-Red-Dark
+themelightdir  = $(datadir)/themes/Vertex-Red-Light
 
 ithemedir      = $(DESTDIR)$(themedir)
 ithemedarkdir  = $(DESTDIR)$(themedarkdir)
